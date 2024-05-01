@@ -1,11 +1,8 @@
-
-main{
-    width: 90%;
-    text-align: center;
-}
 body{
     background-image: url(háttér2.png);
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     background-size: cover;
 }
 h1{
@@ -19,4 +16,8 @@ h1{
 }
 img{
     width: 400px;
+}
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
 }
